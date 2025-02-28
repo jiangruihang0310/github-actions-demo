@@ -115,7 +115,14 @@ export default {
 							name: "log",
 							description: 'log',
 							path: "/log"
+						},
+						{
+							id: 912123,
+							name: "upload",
+							description: 'log2',
+							path: "/log2"
 						}
+						
 					]
 				},
 				

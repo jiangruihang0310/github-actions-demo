@@ -14,6 +14,7 @@ import DingTalk from '@/view/DingTalk'
 import Music from '@/view/music'
 import Face from '@/components/Face'
 import Log from '@/view/about/log'
+import Log2 from '@/view/about/log2'
 import DateCalculation from '@/view/dateCalculation'
 import CrossWindows from '@/view/crossWindows'
 import SceneGraph from '@/view/SceneGraph'
@@ -96,6 +97,11 @@ const routes=[
 		path:"/log",
 		name:'log',
 		component:Log
+	},
+	{
+		path:"/log2",
+		name:'log2',
+		component:Log2
 	},
 	{
 		path:'/DateCalculation',
